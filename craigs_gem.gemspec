@@ -6,11 +6,11 @@ require 'craigs_gem/version'
 Gem::Specification.new do |spec|
   spec.name          = "craigs_gem"
   spec.version       = CraigsGem::VERSION
-  spec.authors       = ["Cass"]
-  spec.email         = ["cass@rubyeffect.com"]
+  spec.authors       = ["Prasanna Natarajan"]
+  spec.email         = ["prasanna@npras.in"]
   spec.summary       = %q{Ruby gem for Craigslist bulk posting API}
   spec.description   = %q{Publish multiple postings to Craigslist in a single http post!}
-  spec.homepage      = "https://github.com/boyhavoc/craigsgem"
+  spec.homepage      = "https://github.com/npras/craigs_gem"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
